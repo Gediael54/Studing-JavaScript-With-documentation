@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sequências de Escape JavaScript</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🔤 Testando Sequ^encias de Escape JavaScript</h1>
+
+  <div class="example">
+    <h3>\\ - BackSlash</h3>
+    <div class="code">let text = "The character \\ is called backslash.</div>
+    <div class="result">
+      <strong>Resultado:</strong>
+      <pre id="backslash"></pre>
+    </div>
+  </div>
+
+  <div class="example">
+    <h3>\b = Backspace</h3>
+    <div class="code">let text = "ABC\bDEF";</div>
+    <div class="result">
+      <strong>Resultado:</strong>
+      <pre id="backspace"></pre>
+    </div>
+  </div>
+
+  <div class="example">
+    <h3>/f - Form Feed</h3>
+    <div class="code">let text = "Line 1\fLine2";</div>
+    <div class="result">
+      <strong>Resultado:</strong>
+      <pre id="formfeed"></pre>
+    </div>
+  </div>
+
+  <div class="example">
+    <h3>\n - New Line</h3>
+    <div class="code">let text = "Primeira linha\nSegunda linha\nTerceira linha";</div>
+    <div class="result">
+      <strong>Resultado:</strong>
+      <pre id="newline"></pre>
+    </div>
+  </div>
+
+  <div class="example">
+    <h3>\r - Carriage Return</h3>
+    <div class="code">let text = "ABC\rXYZ";</div>
+    <div class="result">
+      <strong>Resultado:</strong>
+      <pre id="carriage"></pre>
+    </div>
+  </div>
+
+  <div class="example">
+    <h3>\t - Horizontal Tabulator</h3>
+    <div class="code">let text = "Nome:\tJoão\nIdade:\t25\nCidade:\tRecife";</div>
+    <div class="result">
+      <strong>Resultado:</strong>
+      <pre id="tab"></pre>
+    </div>
+  </div>
+
+  <div class="example">
+    <h3>\v - Vertical Tabulator</h3>
+    <div class="code">let text = "Linha 1\vLinha 2\vLinha 3";</div>
+    <div class="result">
+      <strong>Resultado:</strong>
+      <pre id="vertical"></pre>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
